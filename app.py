@@ -24,7 +24,7 @@ model, preprocess = clip.load("ViT-B/32", device=device)
 # -------------------------------
 # 📂 Dataset Path (Change if needed)
 # -------------------------------
-base_path = r"D:\Indian-monuments\images"
+base_path = "./images"
 
 # -------------------------------
 # 🧠 Feature Extraction Function
